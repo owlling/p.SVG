@@ -1,0 +1,14 @@
+{
+  "name": "PNG/JPG To SVG",
+  "id": "pngjpg-to-svg",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "networkAccess": {
+    "allowedDomains": ["none"],
+    "devAllowedDomains": ["http://localhost:7777"],
+    "reasoning": "Local runtime debugging during development."
+  },
+  "documentAccess": "dynamic-page"
+}
